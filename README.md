@@ -2,9 +2,7 @@
 
 Using OpenCV to detect lanes.
 
-## Results
-
-###### Canny
+## Canny
 
 ![Canny](./img/canny.jpg)
 Responsible for taking the input frame and applying these filters:
@@ -12,17 +10,17 @@ Responsible for taking the input frame and applying these filters:
 1. Turning the image to gray
 2. Reduce the noise in the image using Gaussian blur
 
-###### Segment
+## Segment
 
 ![Segment](./img/segment.jpg)
 Forms a triangular mask for the valid lane area.
 
-###### Hough Transformation
+## Hough Transformation
 
 ![Hough](./img/hough.jpg)
 The goal is to identify two straight lines (left + right).
 
-###### Output
+## Output
 
 ![Result](./img/result.jpg)
 
